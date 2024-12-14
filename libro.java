@@ -26,5 +26,10 @@ public class Libro {
         this.añoPublicacion=2000;
         this.genero="General";
     }
+    //Clase toString
+    @Override
+    public String toString(){
+        return "Libro{\nTítulo: "+titulo+"\nAutor: "+autor+"\nAño de publicación: "+añoPublicacion+"\nGénero:"+genero+"}";
+    }
 
 }
